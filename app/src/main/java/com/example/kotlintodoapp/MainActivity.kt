@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         //create list on-create
         toDoList = ArrayList()
 
-        //data base
+        //database
         dataB = DbHelper(this)
 
         //array of object used as data source
